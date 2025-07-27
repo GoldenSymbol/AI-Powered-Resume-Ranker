@@ -1,3 +1,6 @@
+
+<img width="1024" height="1024" alt="ChatGPT Image Jul 27, 2025, 05_36_42 PM" src="https://github.com/user-attachments/assets/0da24bcd-4a6d-42b3-88c1-fd6f6f197ed4" />
+
 # 🤖 AI-Powered Resume Ranker
 
 A simple AI tool that compares a candidate's resume to a job description and calculates a **match score**.
@@ -62,6 +65,3 @@ AI-Powered-Resume-Ranker/
 
 🔄 Dashboard + Visual Analytics (future)
 
----
-
-<img width="1024" height="1536" alt="ChatGPT Image Jul 27, 2025, 05_08_09 PM" src="https://github.com/user-attachments/assets/441facda-a583-4ab9-a014-34852637b5e8" />
