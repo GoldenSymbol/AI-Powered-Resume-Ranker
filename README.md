@@ -38,5 +38,30 @@ Help junior candidates and students evaluate how well their resume matches a giv
 4. Both texts are vectorized using `TfidfVectorizer`
 5. Cosine similarity is calculated → final score is shown
 
+---
+
+## 📂 Project Structure
+
+AI-Powered-Resume-Ranker/
+├── app.py
+├── utils/
+│   ├── __init__.py
+│   └── parser.py
+├── README.md
+└── requirements.txt
+
+---
+
+## 📌 Roadmap
+
+✅ Match Score Calculator
+
+🔄 Match Explanation (coming soon)
+
+🔄 Improvement Suggestions (coming soon)
+
+🔄 Dashboard + Visual Analytics (future)
+
+---
 
 <img width="1024" height="1536" alt="ChatGPT Image Jul 27, 2025, 05_08_09 PM" src="https://github.com/user-attachments/assets/441facda-a583-4ab9-a014-34852637b5e8" />
