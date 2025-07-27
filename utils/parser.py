@@ -1,9 +1,6 @@
 from PyPDF2  import PdfReader
 import docx
 
-
-
-
 def extract_text_from_pdf(file):
     text = ""
     reader = PdfReader(file)

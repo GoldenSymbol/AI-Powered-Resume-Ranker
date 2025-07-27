@@ -2,8 +2,6 @@ import sys
 import os
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
-print("קבצים בתיקיית utils:", os.listdir(os.path.join(os.path.dirname(__file__), 'utils')))
-
 import streamlit as st
 from utils.parser import extract_text_from_file
 from sklearn.feature_extraction.text import TfidfVectorizer
