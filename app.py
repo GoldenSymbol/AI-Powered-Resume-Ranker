@@ -4,6 +4,8 @@ sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
 import streamlit as st
 from utils.parser import extract_text_from_file
+from utils.analyzer import analyze_keywords
+from utils.analyzer import extract_keywords
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
@@ -23,5 +25,9 @@ if st.button("Calculate Match Score"):
         similarity = compute_similarity(resume_text, job_description)
         score = round(similarity * 100, 2)
         st.success(f"Match Score: {score} / 100")
+        found_word, missing_words = analyze_keywords(resume_text, job_description)
+        st.subheader("Match Explanation")
+        st.markdown(f"**Found In Resume:** {', '.join(found_word)}")
+        st.markdown(f"**Missing In Resume:** {', '.join(missing_words)}")
     else:
         st.error("Please upload a resume file and enter the job description.")
