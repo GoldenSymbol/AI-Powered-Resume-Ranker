@@ -21,6 +21,7 @@ Help junior candidates and students evaluate how well their resume matches a giv
 
 > ✅ Match score ranges from 0 to 100  
 > ✅ Simple Streamlit UI for interaction
+> ✅ Match explanation based on keywords found or missing inthe resume
 
 ---
 
