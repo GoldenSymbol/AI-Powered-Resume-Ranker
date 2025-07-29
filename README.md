@@ -63,7 +63,7 @@ AI-Powered-Resume-Ranker/
 
 ✅ Match Explanation
 
-🔄 Improvement Suggestions (coming soon)
+✅ Improvement Suggestions (coming soon)
 
 🔄 Dashboard + Visual Analytics (future)
 
