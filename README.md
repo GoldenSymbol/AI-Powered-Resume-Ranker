@@ -1,7 +1,7 @@
 
 <img width="1024" height="1024" alt="ChatGPT Image Jul 27, 2025, 05_36_42 PM" src="https://github.com/user-attachments/assets/0da24bcd-4a6d-42b3-88c1-fd6f6f197ed4" />
 
-# 🤖 AI-Powered Resume Ranker
+# 🤖 AI Powered Resume Ranker
 
 A simple AI tool that compares a candidate's resume to a job description and calculates a **match score**.
 
@@ -9,7 +9,7 @@ A simple AI tool that compares a candidate's resume to a job description and cal
 
 ## 🎯 Project Goal
 
-Help junior candidates and students evaluate how well their resume matches a given job description — and improve their chances of getting noticed.
+Help junior candidates and students evaluate how well their resume matches a given job description and improve their chances of getting noticed.
 
 ---
 
@@ -21,6 +21,7 @@ Help junior candidates and students evaluate how well their resume matches a giv
 
 > ✅ Match score ranges from 0 to 100  
 > ✅ Simple Streamlit UI for interaction
+> ✅ Match explanation based on keywords found or missing inthe resume
 
 ---
 
@@ -49,7 +50,8 @@ AI-Powered-Resume-Ranker/
 ├── app.py
 ├── utils/
 │   ├── __init__.py
-│   └── parser.py
+│   ├── parser.py
+│   └── analyzer.py 
 ├── README.md
 └── requirements.txt
 
@@ -59,7 +61,7 @@ AI-Powered-Resume-Ranker/
 
 ✅ Match Score Calculator
 
-🔄 Match Explanation (coming soon)
+✅ Match Explanation
 
 🔄 Improvement Suggestions (coming soon)
 
