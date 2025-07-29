@@ -6,6 +6,7 @@ import streamlit as st
 from utils.parser import extract_text_from_file
 from utils.analyzer import analyze_keywords
 from utils.analyzer import extract_keywords
+from utils.analyzer import improvement_suggestions
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
@@ -29,5 +30,9 @@ if st.button("Calculate Match Score"):
         st.subheader("Match Explanation")
         st.markdown(f"**Found In Resume:** {', '.join(found_word)}")
         st.markdown(f"**Missing In Resume:** {', '.join(missing_words)}")
+        improvement = improvement_suggestions(missing_words)
+        st.subheader("Improvement Suggestions")
+        for suggestion in improvement:
+            st.markdown(f"{suggestion}")
     else:
         st.error("Please upload a resume file and enter the job description.")
