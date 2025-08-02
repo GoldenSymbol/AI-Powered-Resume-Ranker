@@ -1,40 +1,39 @@
 
 <img width="1024" height="1024" alt="ChatGPT Image Jul 27, 2025, 05_36_42 PM" src="https://github.com/user-attachments/assets/0da24bcd-4a6d-42b3-88c1-fd6f6f197ed4" />
 
-# 🤖 AI Powered Resume Ranker
+# AI Powered Resume Ranker
 
 A simple AI tool that compares a candidate's resume to a job description and calculates a **match score**.
 
 ---
 
-## 🎯 Project Goal
+## Project Goal
 
 Help junior candidates and students evaluate how well their resume matches a given job description and improve their chances of getting noticed.
 
 ---
 
-## 🚀 Features (So Far)
+##  Features
 
-- 📄 Upload resume (PDF or DOCX)
-- 📋 Paste job description
-- 📊 Get a **match score** based on text similarity (TF-IDF + cosine similarity)
-
-> ✅ Match score ranges from 0 to 100  
-> ✅ Simple Streamlit UI for interaction
-> ✅ Match explanation based on keywords found or missing inthe resume
-
+- Upload resume files in PDF or DOCX format
+- Paste a job description as free text
+- Get a match score (0–100) based on text similarity
+- See which keywords are found and which are missing
+- Get improvement suggestions to help optimize your resume
+  
 ---
 
-## ⚙️ Tech Stack
+## Tech Stack
 
-- 🐍 Python 3.10+
-- 📊 scikit-learn (TF-IDF & cosine similarity)
-- 🧠 PyPDF2 & python-docx (file parsing)
-- 🌐 Streamlit (web app)
-
+- Python 3
+- Streamlit
+- scikit-learn
+- python-docx
+- PyPDF2
+  
 ---
 
-## 🧪 How It Works
+## How It Works
 
 1. The user uploads their resume
 2. The user enters a job description
@@ -44,7 +43,7 @@ Help junior candidates and students evaluate how well their resume matches a giv
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 AI-Powered-Resume-Ranker/
 ├── app.py
@@ -57,13 +56,11 @@ AI-Powered-Resume-Ranker/
 
 ---
 
-## 📌 Roadmap
+## How to Run
 
-✅ Match Score Calculator
+1. Clone the repository  
+2. Install dependencies:
+      ```bash
+   pip install -r requirements.txt
 
-✅ Match Explanation
-
-✅ Improvement Suggestions (coming soon)
-
-🔄 Dashboard + Visual Analytics (future)
-
+---
