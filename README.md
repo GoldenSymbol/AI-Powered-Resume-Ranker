@@ -17,7 +17,7 @@ Help junior candidates and students evaluate how well their resume matches a giv
 
 - Upload resume files in PDF or DOCX format
 - Paste a job description as free text
-- Get a match score (0–100) based on text similarity
+- Get a match score (0 - 100) based on text similarity
 - See which keywords are found and which are missing
 - Get improvement suggestions to help optimize your resume
   
@@ -27,8 +27,8 @@ Help junior candidates and students evaluate how well their resume matches a giv
 
 - Python 3
 - Streamlit
-- scikit-learn
-- python-docx
+- scikit - learn
+- python - docx
 - PyPDF2
   
 ---
@@ -39,7 +39,7 @@ Help junior candidates and students evaluate how well their resume matches a giv
 2. The user enters a job description
 3. The app extracts text from the file
 4. Both texts are vectorized using `TfidfVectorizer`
-5. Cosine similarity is calculated → final score is shown
+5. Cosine similarity is calculated -> final score is shown
 
 ---
 
